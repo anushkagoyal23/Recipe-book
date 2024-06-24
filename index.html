@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>My Recipe Book</h1>
+                <input type="text" id="search-bar" placeholder="Search for recipes...">
+            </div>
+        </header>
+        <main>
+            <div class="recipe-category">
+                <h2>Pasta Dishes</h2>
+
+                <!-- Recipe items -->
+                <div class="recipe-item">
+                    <div class="recipe-header">
+                        <h3>Spaghetti Carbonara</h3>
+                        <button class="toggle-btn">Show Recipe</button>
+                    </div>
+                    <div class="recipe-content">
+                        <img src="spaghetti.jpg" alt="Spaghetti Carbonara">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>200g Spaghetti</li>
+                            <li>100g Pancetta</li>
+                            <li>2 large eggs</li>
+                            <li>50g Pecorino cheese</li>
+                            <li>50g Parmesan</li>
+                            <li>Black pepper</li>
+                            <li>Salt</li>
+                        </ul>
+                        <h4>Instructions:</h4>
+                        <p>
+                            1. Cook the spaghetti. <br>
+                            2. Fry the pancetta. <br>
+                            3. Beat the eggs and mix with cheese. <br>
+                            4. Combine everything and serve.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recipe-item">
+                    <div class="recipe-header">
+                        <h3>Chicken Alfredo</h3>
+                        <button class="toggle-btn">Show Recipe</button>
+                    </div>
+                    <div class="recipe-content">
+                        <img src="alfredo.jpg" alt="Chicken Alfredo">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>200g Fettuccine</li>
+                            <li>2 chicken breasts</li>
+                            <li>1 cup heavy cream</li>
+                            <li>1/2 cup Parmesan cheese</li>
+                            <li>2 cloves garlic</li>
+                            <li>Salt and pepper</li>
+                            <li>Parsley</li>
+                        </ul>
+                        <h4>Instructions:</h4>
+                        <p>
+                            1. Cook the fettuccine. <br>
+                            2. Cook the chicken. <br>
+                            3. Prepare the sauce. <br>
+                            4. Combine everything and serve.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recipe-item">
+                    <div class="recipe-header">
+                        <h3>Pesto Pasta</h3>
+                        <button class="toggle-btn">Show Recipe</button>
+                    </div>
+                    <div class="recipe-content">
+                        <img src="pesto.jpg" alt="Pesto Pasta">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>200g Pasta</li>
+                            <li>1 cup fresh basil</li>
+                            <li>1/2 cup grated Parmesan</li>
+                            <li>1/4 cup pine nuts</li>
+                            <li>2 cloves garlic</li>
+                            <li>1/2 cup olive oil</li>
+                            <li>Salt and pepper</li>
+                        </ul>
+                        <h4>Instructions:</h4>
+                        <p>
+                            1. Cook the pasta. <br>
+                            2. Blend basil, Parmesan, pine nuts, and garlic. <br>
+                            3. Add olive oil slowly. <br>
+                            4. Mix pesto with pasta and serve.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recipe-item">
+                    <div class="recipe-header">
+                        <h3>Lasagna</h3>
+                        <button class="toggle-btn">Show Recipe</button>
+                    </div>
+                    <div class="recipe-content">
+                        <img src="lasagna.jpg" alt="Lasagna">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>12 lasagna noodles</li>
+                            <li>1 lb ground beef</li>
+                            <li>1 onion, chopped</li>
+                            <li>2 cloves garlic</li>
+                            <li>2 cups ricotta cheese</li>
+                            <li>3 cups mozzarella cheese</li>
+                            <li>2 cups marinara sauce</li>
+                            <li>1/4 cup grated Parmesan</li>
+                        </ul>
+                        <h4>Instructions:</h4>
+                        <p>
+                            1. Cook lasagna noodles. <br>
+                            2. Cook beef, onion, and garlic. <br>
+                            3. Layer noodles, beef, ricotta, mozzarella, and sauce. <br>
+                            4. Bake and serve.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recipe-item">
+                    <div class="recipe-header">
+                        <h3>Mac and Cheese</h3>
+                        <button class="toggle-btn">Show Recipe</button>
+                    </div>
+                    <div class="recipe-content">
+                        <img src="macandcheese.jpg" alt="Mac and Cheese">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>200g macaroni</li>
+                            <li>2 cups cheddar cheese</li>
+                            <li>2 tbsp butter</li>
+                            <li>2 tbsp flour</li>
+                            <li>2 cups milk</li>
+                            <li>Salt and pepper</li>
+                        </ul>
+                        <h4>Instructions:</h4>
+                        <p>
+                            1. Cook the macaroni. <br>
+                            2. Make the cheese sauce with butter, flour, milk, and cheese. <br>
+                            3. Combine macaroni with sauce and serve.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recipe-item">
+                    <div class="recipe-header">
+                        <h3>Ravioli</h3>
+                        <button class="toggle-btn">Show Recipe</button>
+                    </div>
+                    <div class="recipe-content">
+                        <img src="ravioly.jpg" alt="Ravioli">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>200g ravioli</li>
+                            <li>1 cup ricotta cheese</li>
+                            <li>1 egg</li>
+                            <li>1/2 cup grated Parmesan</li>
+                            <li>2 cups marinara sauce</li>
+                            <li>Salt and pepper</li>
+                            <li>Basil for garnish</li>
+                        </ul>
+                        <h4>Instructions:</h4>
+                        <p>
+                            1. Cook the ravioli. <br>
+                            2. Prepare the filling with ricotta, egg, and Parmesan. <br>
+                            3. Serve ravioli with marinara sauce and garnish with basil.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recipe-item">
+                    <div class="recipe-header">
+                        <h3>Linguine with Clam Sauce</h3>
+                        <button class="toggle-btn">Show Recipe</button>
+                    </div>
+                    <div class="recipe-content">
+                        <img src="linguine_clam.jpg" alt="Linguine with Clam Sauce">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>200g linguine</li>
+                            <li>500g clams</li>
+                            <li>4 cloves garlic</li>
+                            <li>1 cup white wine</li>
+                            <li>1/4 cup olive oil</li>
+                            <li>Parsley for garnish</li>
+                            <li>Salt and pepper</li>
+                        </ul>
+                        <h4>Instructions:</h4>
+                        <p>
+                            1. Cook the linguine. <br>
+                            2. Cook garlic in olive oil. <br>
+                            3. Add clams and white wine. <br>
+                            4. Toss with linguine and garnish with parsley.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recipe-item">
+                    <div class="recipe-header">
+                        <h3>Orzo Salad</h3>
+                        <button class="toggle-btn">Show Recipe</button>
+                    </div>
+                    <div class="recipe-content">
+                        <img src="orzo.jpg" alt="Orzo Salad">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>200g orzo</li>
+                            <li>1 cucumber</li>
+                            <li>1 bell pepper</li>
+                            <li>1/4 cup feta cheese</li>
+                            <li>1/4 cup olives</li>
+                            <li>2 tbsp olive oil</li>
+                            <li>1 tbsp lemon juice</li>
+                            <li>Salt and pepper</li>
+                        </ul>
+                        <h4>Instructions:</h4>
+                        <p>
+                            1. Cook the orzo. <br>
+                            2. Chop vegetables. <br>
+                            3. Mix orzo with vegetables, feta, and olives. <br>
+                            4. Dress with olive oil and lemon juice.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recipe-item">
+                    <div class="recipe-header">
+                        <h3>Tortellini Soup</h3>
+                        <button class="toggle-btn">Show Recipe</button>
+                    </div>
+                    <div class="recipe-content">
+                        <img src="tortellini_soup.jpg" alt="Tortellini Soup">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>200g tortellini</li>
+                            <li>1 liter chicken broth</li>
+                            <li>2 carrots</li>
+                            <li>2 celery stalks</li>
+                            <li>1 onion</li>
+                            <li>2 cloves garlic</li>
+                            <li>1 cup spinach</li>
+                            <li>Salt and pepper</li>
+                        </ul>
+                        <h4>Instructions:</h4>
+                        <p>
+                            1. Cook vegetables in broth. <br>
+                            2. Add tortellini and cook until tender. <br>
+                            3. Stir in spinach and season to taste.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recipe-item">
+                    <div class="recipe-header">
+                        <h3>Baked Ziti</h3>
+                        <button class="toggle-btn">Show Recipe</button>
+                    </div>
+                    <div class="recipe-content">
+                        <img src="baked_ziti.jpg" alt="Baked Ziti">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>200g ziti</li>
+                            <li>1 lb ground beef</li>
+                            <li>1 jar marinara sauce</li>
+                            <li>1 cup ricotta cheese</li>
+                            <li>1 cup mozzarella cheese</li>
+                            <li>1/4 cup grated Parmesan</li>
+                            <li>Salt and pepper</li>
+                        </ul>
+                        <h4>Instructions:</h4>
+                        <p>
+                            1. Cook the ziti. <br>
+                            2. Brown the beef and mix with marinara. <br>
+                            3. Layer ziti, ricotta, beef sauce, and mozzarella in a baking dish. <br>
+                            4. Bake and serve.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recipe-item">
+                    <div class="recipe-header">
+                        <h3>Rotini Primavera</h3>
+                        <button class="toggle-btn">Show Recipe</button>
+                    </div>
+                    <div class="recipe-content">
+                        <img src="rotini.jpg" alt="Rotini Primavera">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>200g rotini</li>
+                            <li>1 zucchini</li>
+                            <li>1 bell pepper</li>
+                            <li>1 cup cherry tomatoes</li>
+                            <li>1/4 cup grated Parmesan</li>
+                            <li>2 tbsp olive oil</li>
+                            <li>Salt and pepper</li>
+                            <li>Basil for garnish</li>
+                        </ul>
+                        <h4>Instructions:</h4>
+                        <p>
+                            1. Cook the rotini. <br>
+                            2. Sauté vegetables in olive oil. <br>
+                            3. Toss with rotini and Parmesan. <br>
+                            4. Garnish with basil and serve.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="recipe-item">
+                    <div class="recipe-header">
+                        <h3>Cannelloni</h3>
+                        <button class="toggle-btn">Show Recipe</button>
+                    </div>
+                    <div class="recipe-content">
+                        <img src="cannelloni.jpg" alt="Cannelloni">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>12 cannelloni tubes</li>
+                            <li>1 lb ground beef</li>
+                            <li>1 onion, chopped</li>
+                            <li>2 cloves garlic</li>
+                            <li>2 cups ricotta cheese</li>
+                            <li>1/2 cup grated Parmesan</li>
+                            <li>2 cups marinara sauce</li>
+                            <li>Salt and pepper</li>
+                            <li>Parsley for garnish</li>
+                        </ul>
+                        <h4>Instructions:</h4>
+                        <p>
+                            1. Cook beef, onion, and garlic. <br>
+                            2. Stuff cannelloni tubes with beef and ricotta mixture. <br>
+                            3. Arrange in a baking dish, top with marinara sauce and Parmesan. <br>
+                            4. Bake and serve.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Add more categories as needed -->
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
